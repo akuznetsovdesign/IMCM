@@ -72,7 +72,7 @@ export default function Home() {
 
   const selectorVar = {
       initial: { opacity: 0, y: 10, transition: { duration: 0.15, ease: 'easeOut'}, transitionEnd: {display: 'none'}},
-      open: { opacity: 1, y: 0, display: 'flex', transition: { duration: 0.3, delay: 0.15, ease: 'easeOut'}, transitionEnd: {display: 'flex'} },
+      open: { opacity: 1, y: 0, display: 'flex', transition: { duration: 0.3, ease: 'easeOut'}, transitionEnd: {display: 'flex'} },
   }
 
   useEffect(() => {
