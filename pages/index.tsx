@@ -92,7 +92,8 @@ export default function Home() {
             <span className='font-medium text-[16px] mb-[25px] text-blue'>IMCM</span>
             <span className='font-normal text-[13px] mb-[25px] text-[#96A1B2]'>Проект основан на публичных статистических данных IOM UN Migration</span>
             <span className='font-normal text-[16px] mb-[15px] text-[#2E4465]'>Полезная информация</span>
-            <p className='font-normal text-[13px] mb-[25px] text-[#2E4465]'>Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old. Richard McClintock, a Latin professor at Hampden-Sydney College in Virginia, looked up one of the more obscure Latin words, consectetur, from a Lorem Ipsum passage.</p>
+            <p className='font-normal text-[13px] mb-[25px] text-[#2E4465]'>Выберите страну для того, чтобы наглядно увидеть миграционные коридоры на карте мира. Также вам будет доступна дополнительная информация о количестве человек, мигрирующих по коридорам в различные страны из выбранной вами страны.
+На данной карте отображаются основные официальные миграционные коридоры по данным IOM при ООН.</p>
           </div>
           <div className='w-full h-fit min-h-[200px] rounded-[15px] overflow-clip bg-[#D7E2F4]'>
             <div className='w-full h-fit bg-[#2A64F6] flex items-center py-[15px] px-[10px]'>
