@@ -29,7 +29,7 @@ export function Modal({isOpen, setIsOpen}:Modal) {
   return (
     <>
       <motion.div variants={popUpVariants} animate={popUpOpenControl} initial="initial" className="flex w-screen h-screen fixed top-0 left-0 z-[20] bg-black/[0.40] items-center justify-center">
-        <div className="bg-white rounded-[15px] p-[35px] w-[40%]">
+        <div className="bg-white rounded-[15px] p-[35px] laptop:w-[40%] mobS:w-[90%]">
           <div className="w-full h-fit flex flex-row items-center justify-end">
             <div onClick={() => setIsOpen(!isOpen)} className="w-[30px] h-[30px] rounded-full border-[1px] border-gray fill-gray hover:border-blue hover:fill-blue flex items-center justify-center transition-all duration-300 ease-out cursor-pointer">
               <MenuClose width={20} />

@@ -85,7 +85,11 @@ export default function Home() {
   }, [isOpen, selectorOpenControl])
 
   return (
-    <div className='w-full h-full flex items-center justify-center overflow-hidden'>
+    <>
+    <div className='w-full h-full flex items-center justify-center bg-white laptop:hidden mobS:flex p-[20px]'>
+      <span className='font-normal text-[14px] text-[#2E4465]'>Для корректного отображения данных используйте компьютерную версию.</span>
+    </div>
+    <div className='w-full h-full flex items-center justify-center overflow-hidden mobS:hidden laptop:flex'>
       <div className='w-full h-full flex justify-center'>
         <div className='w-[30%] h-full bg-white shadow-sm py-[15px] px-[15px] overflow-y-scroll flex flex-col justify-between'>
           <div className='flex flex-col'>
@@ -134,6 +138,7 @@ export default function Home() {
         </div>
       </div>
     </div>
+    </>
   )
 }
 
